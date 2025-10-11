@@ -1,6 +1,60 @@
 // ===== Exercise 1
 
+
+    function displayNumbersDivisible(){
+        let sum = 0 
+        for( let i = 0 ; i <= 500  ; i++ ){
+            if( i % 23 === 0 ){
+                console.log(i)
+                sum += i
+            }
+        }
+        console.log("Sum : " + sum)
+    }
+
+
+    function displayNumbersDivisible(divisor){
+        let sum = 0 
+        for( let i = 0 ; i <= 500  ; i++ ){
+            if( i % divisor === 0 ){
+                console.log(i)
+                sum += i
+            }
+        }
+        console.log("Sum : " + sum)
+    }
+
+
 // ===== Exercise 2
+
+
+    const stock = { 
+        "banana": 6, 
+        "apple": 0,
+        "pear": 12,
+        "orange": 32,
+        "blueberry":1
+    }  
+
+    const prices = {    
+        "banana": 4, 
+        "apple": 2, 
+        "pear": 1,
+        "orange": 1.5,
+        "blueberry":10
+    } 
+
+    const shoppingList = ["banana","orange","apple","kkk"]
+
+    function myBill(){
+        let total = 0
+        for(item of shoppingList){
+            if(item > 0){
+                p = prices[item] 
+            }
+        }
+    }
+
 
 // ===== Exercise 3
 
