@@ -19,5 +19,6 @@ const promise3 = new Promise((resolve, reject) => {
 // Exercise 2 : Analyse Promise.all()
 
 
-
+// Here we do a map on the array, passing each element as a parameter to timesTwoAsync, 
+// and if the result stored in promiseArr is correct, we pass it to then. Just tell me if this is correct.
 
